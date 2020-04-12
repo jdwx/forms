@@ -1,0 +1,25 @@
+{
+	"name": "jdwx/forms",
+	"type": "library",
+	"description": "A forms library.  See XKCD 927.",
+	"keywords": [ "html", "forms" ],
+	"homepage": "https://github.com/jdwx/forms",
+	"license": "MIT",
+	"authors": [{
+		"name": "Jeff W",
+		"email": "phplibs@wheelhouse.org",
+		"homepage": "https://github.com/jdwx",
+		"role": "Developer"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JDWX\\Forms\\": "src/"
+		}
+	},
+	"require": {
+		"jdwx/html5": "master",
+		"jdwx/request": "master"
+	}
+}
+
+
